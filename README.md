@@ -3,6 +3,8 @@ ZFBridge
 
 Bridge class to replicate the ease of Zend_Db in Zend Framework 2.
 
+In zf2 there's no fetchPairs, fetchCol or fetchOne methods from Db, this class tried to fill that gap with an easy approach.
+
 ### LICENSE
 
 The files in this archive are released under the New BSD license.
