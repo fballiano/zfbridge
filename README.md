@@ -11,6 +11,8 @@ You can find a copy of this license in LICENSE.txt.
 ### USAGE
 
 ```php
+require_once "ZFBridge/Db.php";
+
 // first of all we need the zf2 autoloader
 $autoloader = new Zend\Loader\StandardAutoloader(array('autoregister_zf' => true));
 $autoloader->register();
